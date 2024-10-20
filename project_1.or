@@ -1,0 +1,979 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyPyQcXb0nkvE22JErvH/qSs",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "widgets": {
+      "application/vnd.jupyter.widget-state+json": {
+        "990f78a2b7fb4725934540a562e3b147": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "VBoxModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "VBoxModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "VBoxView",
+            "box_style": "",
+            "children": [
+              "IPY_MODEL_8a1f65eb14d54d24816414d5ee36b238",
+              "IPY_MODEL_120d5ab393214a6c9335e9959d596643"
+            ],
+            "layout": "IPY_MODEL_08d8ad2d3c1d4216857f45174da85566"
+          }
+        },
+        "8a1f65eb14d54d24816414d5ee36b238": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "LabelModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "LabelModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "LabelView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_9a23bca490f94ea4aa26694aa9a42922",
+            "placeholder": "​",
+            "style": "IPY_MODEL_81ad7a1050c440c4aad6b4743e14ede0",
+            "value": "23.702 MB of 23.702 MB uploaded\r"
+          }
+        },
+        "120d5ab393214a6c9335e9959d596643": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "FloatProgressModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "FloatProgressModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "ProgressView",
+            "bar_style": "",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_8db48428224043e894db75f716949efd",
+            "max": 1,
+            "min": 0,
+            "orientation": "horizontal",
+            "style": "IPY_MODEL_095b8684b2894b3b9d998fa3823c3f3f",
+            "value": 1
+          }
+        },
+        "08d8ad2d3c1d4216857f45174da85566": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "9a23bca490f94ea4aa26694aa9a42922": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "81ad7a1050c440c4aad6b4743e14ede0": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        },
+        "8db48428224043e894db75f716949efd": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "095b8684b2894b3b9d998fa3823c3f3f": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "ProgressStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "ProgressStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "bar_color": null,
+            "description_width": ""
+          }
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/lidiya21yeatbarek/html-project/blob/main/project_1.or\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from google.colab import drive"
+      ],
+      "metadata": {
+        "id": "D086d7U9ZvpT"
+      },
+      "execution_count": 1,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "drive.mount('/content/drive')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5mGMeA3MZ2m_",
+        "outputId": "e21267d4-dfcb-42ca-a8b2-9c1894e8a2b4"
+      },
+      "execution_count": 3,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Mounted at /content/drive\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!ls /content/drive/MyDrive/project/"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "u5HQfe7XaFXE",
+        "outputId": "6f4c8b5c-b3a6-4462-8bac-f52a31fa941b"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "data  data.yaml  train\tval\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip install ultralytics"
+      ],
+      "metadata": {
+        "id": "YYtCDNEXaMkC"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import os\n",
+        "from ultralytics import YOLO\n",
+        "\n",
+        "# Define the path to the dataset YAML file\n",
+        "dataset_path = '/content/drive/My Drive/project/data.yaml'\n",
+        "\n",
+        "# Load YOLOv8 model (you can replace 'yolov8s.pt' with other model sizes like 'yolov8m.pt', 'yolov8n.pt', etc.)\n",
+        "model = YOLO('yolov8s.pt')\n",
+        "\n",
+        "\n",
+        "# Train the model using the dataset\n",
+        "results = model.train(\n",
+        "    data= \"/content/drive/My Drive/project/data.yaml\",  # Path to the data.yaml file\n",
+        "    epochs=10,  # Number of epochs for training\n",
+        "    imgsz=640,  # Image size\n",
+        "    batch=16,   # Batch size\n",
+        "    name='yolov8_training',  # Name of the run\n",
+        "    save=True  # Save checkpoints during training\n",
+        ")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 1000,
+          "referenced_widgets": [
+            "990f78a2b7fb4725934540a562e3b147",
+            "8a1f65eb14d54d24816414d5ee36b238",
+            "120d5ab393214a6c9335e9959d596643",
+            "08d8ad2d3c1d4216857f45174da85566",
+            "9a23bca490f94ea4aa26694aa9a42922",
+            "81ad7a1050c440c4aad6b4743e14ede0",
+            "8db48428224043e894db75f716949efd",
+            "095b8684b2894b3b9d998fa3823c3f3f"
+          ]
+        },
+        "id": "Mjq6DJ_rakdt",
+        "outputId": "e45cf18b-fc6d-451b-b2f1-167d7a7c7ef0"
+      },
+      "execution_count": 1,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Ultralytics 8.3.18 🚀 Python-3.10.12 torch-2.4.1+cu121 CPU (Intel Xeon 2.20GHz)\n",
+            "\u001b[34m\u001b[1mengine/trainer: \u001b[0mtask=detect, mode=train, model=yolov8s.pt, data=/content/drive/My Drive/project/data.yaml, epochs=10, time=None, patience=100, batch=16, imgsz=640, save=True, save_period=-1, cache=False, device=None, workers=8, project=None, name=yolov8_training2, exist_ok=False, pretrained=True, optimizer=auto, verbose=True, seed=0, deterministic=True, single_cls=False, rect=False, cos_lr=False, close_mosaic=10, resume=False, amp=True, fraction=1.0, profile=False, freeze=None, multi_scale=False, overlap_mask=True, mask_ratio=4, dropout=0.0, val=True, split=val, save_json=False, save_hybrid=False, conf=None, iou=0.7, max_det=300, half=False, dnn=False, plots=True, source=None, vid_stride=1, stream_buffer=False, visualize=False, augment=False, agnostic_nms=False, classes=None, retina_masks=False, embed=None, show=False, save_frames=False, save_txt=False, save_conf=False, save_crop=False, show_labels=True, show_conf=True, show_boxes=True, line_width=None, format=torchscript, keras=False, optimize=False, int8=False, dynamic=False, simplify=True, opset=None, workspace=4, nms=False, lr0=0.01, lrf=0.01, momentum=0.937, weight_decay=0.0005, warmup_epochs=3.0, warmup_momentum=0.8, warmup_bias_lr=0.1, box=7.5, cls=0.5, dfl=1.5, pose=12.0, kobj=1.0, label_smoothing=0.0, nbs=64, hsv_h=0.015, hsv_s=0.7, hsv_v=0.4, degrees=0.0, translate=0.1, scale=0.5, shear=0.0, perspective=0.0, flipud=0.0, fliplr=0.5, bgr=0.0, mosaic=1.0, mixup=0.0, copy_paste=0.0, copy_paste_mode=flip, auto_augment=randaugment, erasing=0.4, crop_fraction=1.0, cfg=None, tracker=botsort.yaml, save_dir=runs/detect/yolov8_training2\n",
+            "Overriding model.yaml nc=80 with nc=2\n",
+            "\n",
+            "                   from  n    params  module                                       arguments                     \n",
+            "  0                  -1  1       928  ultralytics.nn.modules.conv.Conv             [3, 32, 3, 2]                 \n",
+            "  1                  -1  1     18560  ultralytics.nn.modules.conv.Conv             [32, 64, 3, 2]                \n",
+            "  2                  -1  1     29056  ultralytics.nn.modules.block.C2f             [64, 64, 1, True]             \n",
+            "  3                  -1  1     73984  ultralytics.nn.modules.conv.Conv             [64, 128, 3, 2]               \n",
+            "  4                  -1  2    197632  ultralytics.nn.modules.block.C2f             [128, 128, 2, True]           \n",
+            "  5                  -1  1    295424  ultralytics.nn.modules.conv.Conv             [128, 256, 3, 2]              \n",
+            "  6                  -1  2    788480  ultralytics.nn.modules.block.C2f             [256, 256, 2, True]           \n",
+            "  7                  -1  1   1180672  ultralytics.nn.modules.conv.Conv             [256, 512, 3, 2]              \n",
+            "  8                  -1  1   1838080  ultralytics.nn.modules.block.C2f             [512, 512, 1, True]           \n",
+            "  9                  -1  1    656896  ultralytics.nn.modules.block.SPPF            [512, 512, 5]                 \n",
+            " 10                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          \n",
+            " 11             [-1, 6]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           \n",
+            " 12                  -1  1    591360  ultralytics.nn.modules.block.C2f             [768, 256, 1]                 \n",
+            " 13                  -1  1         0  torch.nn.modules.upsampling.Upsample         [None, 2, 'nearest']          \n",
+            " 14             [-1, 4]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           \n",
+            " 15                  -1  1    148224  ultralytics.nn.modules.block.C2f             [384, 128, 1]                 \n",
+            " 16                  -1  1    147712  ultralytics.nn.modules.conv.Conv             [128, 128, 3, 2]              \n",
+            " 17            [-1, 12]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           \n",
+            " 18                  -1  1    493056  ultralytics.nn.modules.block.C2f             [384, 256, 1]                 \n",
+            " 19                  -1  1    590336  ultralytics.nn.modules.conv.Conv             [256, 256, 3, 2]              \n",
+            " 20             [-1, 9]  1         0  ultralytics.nn.modules.conv.Concat           [1]                           \n",
+            " 21                  -1  1   1969152  ultralytics.nn.modules.block.C2f             [768, 512, 1]                 \n",
+            " 22        [15, 18, 21]  1   2116822  ultralytics.nn.modules.head.Detect           [2, [128, 256, 512]]          \n",
+            "Model summary: 225 layers, 11,136,374 parameters, 11,136,358 gradients, 28.6 GFLOPs\n",
+            "\n",
+            "Transferred 349/355 items from pretrained weights\n",
+            "\u001b[34m\u001b[1mTensorBoard: \u001b[0mStart with 'tensorboard --logdir runs/detect/yolov8_training2', view at http://localhost:6006/\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\u001b[34m\u001b[1mwandb\u001b[0m: Using wandb-core as the SDK backend. Please refer to https://wandb.me/wandb-core for more information.\n"
+          ]
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.Javascript object>"
+            ],
+            "application/javascript": [
+              "\n",
+              "        window._wandbApiKey = new Promise((resolve, reject) => {\n",
+              "            function loadScript(url) {\n",
+              "            return new Promise(function(resolve, reject) {\n",
+              "                let newScript = document.createElement(\"script\");\n",
+              "                newScript.onerror = reject;\n",
+              "                newScript.onload = resolve;\n",
+              "                document.body.appendChild(newScript);\n",
+              "                newScript.src = url;\n",
+              "            });\n",
+              "            }\n",
+              "            loadScript(\"https://cdn.jsdelivr.net/npm/postmate/build/postmate.min.js\").then(() => {\n",
+              "            const iframe = document.createElement('iframe')\n",
+              "            iframe.style.cssText = \"width:0;height:0;border:none\"\n",
+              "            document.body.appendChild(iframe)\n",
+              "            const handshake = new Postmate({\n",
+              "                container: iframe,\n",
+              "                url: 'https://wandb.ai/authorize'\n",
+              "            });\n",
+              "            const timeout = setTimeout(() => reject(\"Couldn't auto authenticate\"), 5000)\n",
+              "            handshake.then(function(child) {\n",
+              "                child.on('authorize', data => {\n",
+              "                    clearTimeout(timeout)\n",
+              "                    resolve(data)\n",
+              "                });\n",
+              "            });\n",
+              "            })\n",
+              "        });\n",
+              "    "
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\u001b[34m\u001b[1mwandb\u001b[0m: Appending key for api.wandb.ai to your netrc file: /root/.netrc\n"
+          ]
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.HTML object>"
+            ],
+            "text/html": [
+              "Tracking run with wandb version 0.18.3"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.HTML object>"
+            ],
+            "text/html": [
+              "Run data is saved locally in <code>/content/wandb/run-20241020_172901-ws2fykgp</code>"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.HTML object>"
+            ],
+            "text/html": [
+              "Syncing run <strong><a href='https://wandb.ai/yeatlidiya65-addis-ababa-science-and-technology-university/Ultralytics/runs/ws2fykgp' target=\"_blank\">yolov8_training2</a></strong> to <a href='https://wandb.ai/yeatlidiya65-addis-ababa-science-and-technology-university/Ultralytics' target=\"_blank\">Weights & Biases</a> (<a href='https://wandb.me/run' target=\"_blank\">docs</a>)<br/>"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.HTML object>"
+            ],
+            "text/html": [
+              " View project at <a href='https://wandb.ai/yeatlidiya65-addis-ababa-science-and-technology-university/Ultralytics' target=\"_blank\">https://wandb.ai/yeatlidiya65-addis-ababa-science-and-technology-university/Ultralytics</a>"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.HTML object>"
+            ],
+            "text/html": [
+              " View run at <a href='https://wandb.ai/yeatlidiya65-addis-ababa-science-and-technology-university/Ultralytics/runs/ws2fykgp' target=\"_blank\">https://wandb.ai/yeatlidiya65-addis-ababa-science-and-technology-university/Ultralytics/runs/ws2fykgp</a>"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Freezing layer 'model.22.dfl.conv.weight'\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\u001b[34m\u001b[1mtrain: \u001b[0mScanning /content/drive/My Drive/project/train/labels.cache... 10 images, 0 backgrounds, 0 corrupt: 100%|██████████| 10/10 [00:00<?, ?it/s]\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\u001b[34m\u001b[1malbumentations: \u001b[0mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01, num_output_channels=3, method='weighted_average'), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "/usr/local/lib/python3.10/dist-packages/albumentations/__init__.py:13: UserWarning: A new version of Albumentations is available: 1.4.18 (you have 1.4.15). Upgrade using: pip install -U albumentations. To disable automatic update checks, set the environment variable NO_ALBUMENTATIONS_UPDATE to 1.\n",
+            "  check_for_updates()\n",
+            "\u001b[34m\u001b[1mval: \u001b[0mScanning /content/drive/My Drive/project/val/labels.cache... 2 images, 0 backgrounds, 0 corrupt: 100%|██████████| 2/2 [00:00<?, ?it/s]\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Plotting labels to runs/detect/yolov8_training2/labels.jpg... \n",
+            "\u001b[34m\u001b[1moptimizer:\u001b[0m 'optimizer=auto' found, ignoring 'lr0=0.01' and 'momentum=0.937' and determining best 'optimizer', 'lr0' and 'momentum' automatically... \n",
+            "\u001b[34m\u001b[1moptimizer:\u001b[0m AdamW(lr=0.001667, momentum=0.9) with parameter groups 57 weight(decay=0.0), 64 weight(decay=0.0005), 63 bias(decay=0.0)\n",
+            "\u001b[34m\u001b[1mTensorBoard: \u001b[0mmodel graph visualization added ✅\n",
+            "Image sizes 640 train, 640 val\n",
+            "Using 0 dataloader workers\n",
+            "Logging results to \u001b[1mruns/detect/yolov8_training2\u001b[0m\n",
+            "Starting training for 10 epochs...\n",
+            "Closing dataloader mosaic\n",
+            "\u001b[34m\u001b[1malbumentations: \u001b[0mBlur(p=0.01, blur_limit=(3, 7)), MedianBlur(p=0.01, blur_limit=(3, 7)), ToGray(p=0.01, num_output_channels=3, method='weighted_average'), CLAHE(p=0.01, clip_limit=(1, 4.0), tile_grid_size=(8, 8))\n",
+            "\n",
+            "      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "       1/10         0G      2.008      7.017      2.548         10        640: 100%|██████████| 1/1 [00:33<00:00, 33.28s/it]\n",
+            "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:03<00:00,  3.51s/it]"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "                   all          2          2      0.725        0.5       0.27      0.202\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "       2/10         0G      1.743      6.196      2.176         10        640: 100%|██████████| 1/1 [00:23<00:00, 23.35s/it]\n",
+            "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:01<00:00,  1.54s/it]"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "                   all          2          2      0.735        0.5      0.263      0.202\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "       3/10         0G      1.502      4.985      2.048         10        640: 100%|██████████| 1/1 [00:21<00:00, 21.31s/it]\n",
+            "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:01<00:00,  1.36s/it]"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "                   all          2          2      0.651        0.5      0.174      0.136\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "       4/10         0G      1.233        4.3       1.65         10        640: 100%|██████████| 1/1 [00:23<00:00, 23.02s/it]\n",
+            "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:01<00:00,  1.28s/it]"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "                   all          2          2      0.647        0.5      0.195      0.146\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "       5/10         0G      1.373      4.065       1.75         10        640: 100%|██████████| 1/1 [00:21<00:00, 21.62s/it]\n",
+            "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:02<00:00,  2.02s/it]"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "                   all          2          2      0.642        0.5      0.249      0.185\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "       6/10         0G      1.479      3.716      2.107         10        640: 100%|██████████| 1/1 [00:21<00:00, 21.24s/it]\n",
+            "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "                   all          2          2      0.623        0.5      0.265       0.17\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "       7/10         0G     0.9225      2.814      1.428         10        640: 100%|██████████| 1/1 [00:21<00:00, 21.30s/it]\n",
+            "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:02<00:00,  2.16s/it]"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "                   all          2          2      0.123        0.5      0.597      0.434\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "       8/10         0G     0.7175       3.11      1.305         10        640: 100%|██████████| 1/1 [00:20<00:00, 20.68s/it]\n",
+            "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:01<00:00,  1.30s/it]"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "                   all          2          2      0.263        0.5       0.58      0.431\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "       9/10         0G      1.173      3.023      1.816         10        640: 100%|██████████| 1/1 [00:22<00:00, 22.29s/it]\n",
+            "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:01<00:00,  1.41s/it]"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "                   all          2          2      0.289        0.5      0.569      0.434\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "      Epoch    GPU_mem   box_loss   cls_loss   dfl_loss  Instances       Size\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "      10/10         0G     0.8347      2.879      1.534         10        640: 100%|██████████| 1/1 [00:20<00:00, 20.62s/it]\n",
+            "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:01<00:00,  1.33s/it]"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "                   all          2          2      0.302        0.5      0.622      0.424\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\n",
+            "10 epochs completed in 0.074 hours.\n",
+            "Optimizer stripped from runs/detect/yolov8_training2/weights/last.pt, 22.5MB\n",
+            "Optimizer stripped from runs/detect/yolov8_training2/weights/best.pt, 22.5MB\n",
+            "\n",
+            "Validating runs/detect/yolov8_training2/weights/best.pt...\n",
+            "Ultralytics 8.3.18 🚀 Python-3.10.12 torch-2.4.1+cu121 CPU (Intel Xeon 2.20GHz)\n",
+            "Model summary (fused): 168 layers, 11,126,358 parameters, 0 gradients, 28.4 GFLOPs\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "                 Class     Images  Instances      Box(P          R      mAP50  mAP50-95): 100%|██████████| 1/1 [00:01<00:00,  1.95s/it]\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "                   all          2          2      0.123        0.5      0.348      0.238\n",
+            "         gun-and-knife          1          1          0          0      0.199     0.0784\n",
+            "                 knife          1          1      0.246          1      0.497      0.398\n",
+            "Speed: 2.4ms preprocess, 919.7ms inference, 0.0ms loss, 22.9ms postprocess per image\n",
+            "Results saved to \u001b[1mruns/detect/yolov8_training2\u001b[0m\n"
+          ]
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "VBox(children=(Label(value='4.932 MB of 23.701 MB uploaded\\r'), FloatProgress(value=0.20808824008717813, max=1…"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "990f78a2b7fb4725934540a562e3b147"
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.HTML object>"
+            ],
+            "text/html": [
+              "<style>\n",
+              "    table.wandb td:nth-child(1) { padding: 0 10px; text-align: left ; width: auto;} td:nth-child(2) {text-align: left ; width: 100%}\n",
+              "    .wandb-row { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; width: 100% }\n",
+              "    .wandb-col { display: flex; flex-direction: column; flex-basis: 100%; flex: 1; padding: 10px; }\n",
+              "    </style>\n",
+              "<div class=\"wandb-row\"><div class=\"wandb-col\"><h3>Run history:</h3><br/><table class=\"wandb\"><tr><td>lr/pg0</td><td>▁▃▅▇███▇▆▄</td></tr><tr><td>lr/pg1</td><td>▁▃▅▇███▇▆▄</td></tr><tr><td>lr/pg2</td><td>▁▃▅▇███▇▆▄</td></tr><tr><td>metrics/mAP50(B)</td><td>▃▂▁▁▂▃███▄</td></tr><tr><td>metrics/mAP50-95(B)</td><td>▃▃▁▁▂▂███▃</td></tr><tr><td>metrics/precision(B)</td><td>██▇▇▇▇▁▃▃▁</td></tr><tr><td>metrics/recall(B)</td><td>▁▁▁▁▁▁▁▁▁▁</td></tr><tr><td>model/GFLOPs</td><td>▁</td></tr><tr><td>model/parameters</td><td>▁</td></tr><tr><td>model/speed_PyTorch(ms)</td><td>▁</td></tr><tr><td>train/box_loss</td><td>█▇▅▄▅▅▂▁▃▂</td></tr><tr><td>train/cls_loss</td><td>█▇▅▃▃▃▁▁▁▁</td></tr><tr><td>train/dfl_loss</td><td>█▆▅▃▄▆▂▁▄▂</td></tr><tr><td>val/box_loss</td><td>▂▂▁▁▃▅▇▆█▇</td></tr><tr><td>val/cls_loss</td><td>▁▁▃▆█▅▅▆▆▆</td></tr><tr><td>val/dfl_loss</td><td>▃▂▁▁▃▅▆▆█▇</td></tr></table><br/></div><div class=\"wandb-col\"><h3>Run summary:</h3><br/><table class=\"wandb\"><tr><td>lr/pg0</td><td>2e-05</td></tr><tr><td>lr/pg1</td><td>2e-05</td></tr><tr><td>lr/pg2</td><td>2e-05</td></tr><tr><td>metrics/mAP50(B)</td><td>0.34825</td></tr><tr><td>metrics/mAP50-95(B)</td><td>0.23819</td></tr><tr><td>metrics/precision(B)</td><td>0.12279</td></tr><tr><td>metrics/recall(B)</td><td>0.5</td></tr><tr><td>model/GFLOPs</td><td>28.649</td></tr><tr><td>model/parameters</td><td>11136374</td></tr><tr><td>model/speed_PyTorch(ms)</td><td>604.988</td></tr><tr><td>train/box_loss</td><td>0.83475</td></tr><tr><td>train/cls_loss</td><td>2.8787</td></tr><tr><td>train/dfl_loss</td><td>1.53426</td></tr><tr><td>val/box_loss</td><td>1.29171</td></tr><tr><td>val/cls_loss</td><td>3.7615</td></tr><tr><td>val/dfl_loss</td><td>1.81072</td></tr></table><br/></div></div>"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.HTML object>"
+            ],
+            "text/html": [
+              " View run <strong style=\"color:#cdcd00\">yolov8_training2</strong> at: <a href='https://wandb.ai/yeatlidiya65-addis-ababa-science-and-technology-university/Ultralytics/runs/ws2fykgp' target=\"_blank\">https://wandb.ai/yeatlidiya65-addis-ababa-science-and-technology-university/Ultralytics/runs/ws2fykgp</a><br/> View project at: <a href='https://wandb.ai/yeatlidiya65-addis-ababa-science-and-technology-university/Ultralytics' target=\"_blank\">https://wandb.ai/yeatlidiya65-addis-ababa-science-and-technology-university/Ultralytics</a><br/>Synced 5 W&B file(s), 0 media file(s), 10 artifact file(s) and 17 other file(s)"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.HTML object>"
+            ],
+            "text/html": [
+              "Find logs at: <code>./wandb/run-20241020_172901-ws2fykgp/logs</code>"
+            ]
+          },
+          "metadata": {}
+        }
+      ]
+    }
+  ]
+}
